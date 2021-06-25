@@ -16,7 +16,7 @@ class LanguageTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         checkMarkImage.isHidden = true
-        UIUtilities.createCircularViewforView(self.languageView, withRadius: 10)
+        UIUtilities.createCircularViewforView(self.languageView, withRadius: 11)
         self.languageView.backgroundColor = ColorsUtility.colorWithHexString("#C4161C")
     }
     
